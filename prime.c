@@ -14,7 +14,7 @@ int isPrime(int n) {
 
 int main() {
     int num;
-    printf("Enter a positive integer: ");
+    printf("Enter num: ");
     scanf("%d", &num);
     
     if (isPrime(num))
